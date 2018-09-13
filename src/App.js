@@ -4,12 +4,7 @@ import CharacterCard from './CharacterCard';
 import WordCard from './WordCard';
 const word = "Hello World";
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        attempt: '',
-    }
-}
+  
   render() {
     return (
       <div>
