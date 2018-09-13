@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import CharacterCard from './CharacterCard';
-const word = "Hello";
+import WordCard from './WordCard';
+const word = "Hello World";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        {
-          Array.from(word).map((c, i) => <CharacterCard value={c} key={i} />)
-        }
+      <div>
+       <WordCard value="Hello"/>
       </div>
     );
   }
